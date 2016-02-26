@@ -1,6 +1,6 @@
 {
   backends: ['statsd-elasticsearch-backend'],
-  debug: false,
+  debug: process.env.STATSD_DEBUG,
   elasticsearch: {
     port: process.env.ES_PORT,
     host: process.env.ES_HOST,
