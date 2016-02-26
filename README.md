@@ -2,6 +2,7 @@
 
 An ultra simple `statsd` setup using `elasticsearch` as a backend. The 
 backend comes from [markkimsal/statsd-elasticsearch-backend](https://github.com/markkimsal/statsd-elasticsearch-backend).
+You will want to run the index mapping script described in that repo.
 
 ## Usage
 
